@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.actf.examples.htmlchecker"
+      label="ACTF Example HtmlChecker Feature"
+      version="1.5.1.202004151330"
+      provider-name="Eclipse ACTF Project"
+      plugin="org.eclipse.actf.examples.htmlchecker"
+      os="win32"
+      ws="win32">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.rcp"
+         version="4.5.2.v20160212-1500"/>
+
+   <includes
+         id="org.eclipse.actf.visualization"
+         version="1.5.1.R201709131236"/>
+
+   <includes
+         id="org.eclipse.emf.common"
+         version="2.11.1.v20160208-0816"/>
+
+   <includes
+         id="org.eclipse.emf.ecore"
+         version="2.11.2.v20160208-0816"/>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime" version="3.2.0" match="compatible"/>
+      <import plugin="org.eclipse.ui" version="3.5.0" match="compatible"/>
+      <import plugin="org.eclipse.actf.ui"/>
+      <import plugin="org.eclipse.actf.visualization"/>
+      <import plugin="org.eclipse.actf.visualization.blind"/>
+      <import plugin="org.eclipse.actf.visualization.engines.blind"/>
+      <import plugin="org.eclipse.actf.visualization.engines.blind.html"/>
+      <import plugin="org.eclipse.actf.visualization.eval"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ui.views"
+         download-size="0"
+         install-size="0"
+         version="3.8.0.v20150422-0725"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.actf.examples.htmlchecker"
+         download-size="0"
+         install-size="0"
+         version="1.5.1.202004151330"
+         unpack="false"/>
+
+</feature>

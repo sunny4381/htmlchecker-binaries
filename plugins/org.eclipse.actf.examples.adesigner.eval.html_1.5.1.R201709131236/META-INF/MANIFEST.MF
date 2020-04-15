@@ -1,0 +1,73 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Eclipse ACTF Project
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Name: ACTF HTML evaluation example Fragment
+Bundle-SymbolicName: org.eclipse.actf.examples.adesigner.eval.html;sin
+ gleton:=true
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.actf.core,org.ecl
+ ipse.actf.model.ui,org.eclipse.actf.visualization.eval,com.ibm.icu,or
+ g.eclipse.actf.model.dom.html,org.eclipse.actf.visualization.engines.
+ blind,org.eclipse.actf.model.dom.dombycom
+Bundle-Version: 1.5.1.R201709131236
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/messages_
+ zh.properties
+SHA1-Digest: MYK/4e3P6iatKDhvzMjI+VY4180=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/HtmlCheckerInfoPro
+ vider.class
+SHA1-Digest: HESS4/uqJo83I6ZBStC0SMzYxK4=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: resources/description_zh.properties
+SHA1-Digest: vOTnowY8qNVxXrWmTa3PV/cATes=
+
+Name: about.html
+SHA1-Digest: 6iWCOXZprfOub4LeuEsP3zx5AiY=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/LanguageT
+ ag.class
+SHA1-Digest: RMlkCv0kuw5Obzg2RJILhCpxFYE=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/Checker.class
+SHA1-Digest: d/Nl3jCBdcAzHtzQQU1F6xRUljk=
+
+Name: resources/description.properties
+SHA1-Digest: Ul2mtabrRLQoq0HwJf0xSoXtVtA=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/FieldsetM
+ anager.class
+SHA1-Digest: QyUG/QVSCba3D/mnA1K+2oqvJgE=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/CheckEngi
+ ne.class
+SHA1-Digest: dsQMCnm6mytkRvHfmAINl/1H1I8=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/messages.
+ properties
+SHA1-Digest: U8FiodhYOz/yrT37wXtvYsoXnyM=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/Messages.
+ class
+SHA1-Digest: js01a7RSnnSZWTTfr3hndcgKe74=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/TitleChec
+ kResult.class
+SHA1-Digest: s2Y7pkv4LYTVE1WtFQZ0L5HaDfg=
+
+Name: org/eclipse/actf/examples/adesigner/eval/html/internal/messages_
+ ja.properties
+SHA1-Digest: 2XGKHWWfwV08DrVUgvilAivfw4M=
+
+Name: resources/checkitem.xml
+SHA1-Digest: cA2y8GgX3O+/HWrNtIWj88KSn94=
+
+Name: plugin.xml
+SHA1-Digest: iEjvp6/QnWZ/KvZbiDPmwgj4KWc=
+
+Name: resources/description_ja.properties
+SHA1-Digest: 2Sa4BgTfi6W/mf3ODvqIkxkc97A=
+
