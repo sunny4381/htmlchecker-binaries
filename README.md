@@ -3,25 +3,21 @@ HTML Checker
 
 ## 前提条件
 
+### 共通
+
+Java 1.8 をインストールし、環境変数などを適切に設定してください。Java 9 以上では動作しないと思います。無用なトラブルを避けるためにも Java 1.8 をインストールするようにしてください。
+
 ### Windows
 
-Java 1.8 以上をインストールし、環境変数などを適切に設定してください。
+特になし。
 
 ### Mac
 
-Java 1.8 以上をインストールしてください。
-brew をご利用の方は、次のコマンドでインストールすることができます。
-
-~~~shell
-brew install openjdk
-sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-echo 'export JAVA_HOME=$(/usr/libexec/java_home)' >> ~/.zshrc
-echo 'export PATH="$JAVA_HOME/bin:$PATH"' >> ~/.zshrc
-~~~
+特になし。
 
 ### Linux
 
-Java 1.8 以上をインストールしてください。CentOS 7 以降をご利用の方は、次のコマンドでインストールすることができます。
+CentOS 7 以降をご利用の方は、次のコマンドで Java 1.8 をインストールすることができます。
 
 ~~~shell
 yum install java-1.8.0-openjdk
